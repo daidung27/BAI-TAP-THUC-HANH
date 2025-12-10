@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau1_1"/>
+        <attribute name="authors" value="dung2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 10:14:24 PM"/>
+        <attribute name="created" value="ZHVuZzI7REFJRFVOR0c7MjAyNS0xMi0wMjsxMDoxMDoxOSBQTTsyMzI5"/>
+        <attribute name="edited" value="ZHVuZzI7REFJRFVOR0c7MjAyNS0xMi0wMjsxMDoxNDoyNCBQTTsxOzI0Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Hello, world!&quot;" newline="True"/>
+        </body>
+    </function>
+    <function name="output" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+</flowgorithm>

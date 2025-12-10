@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau1_2_d"/>
+        <attribute name="authors" value="dung2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 10:48:27 PM"/>
+        <attribute name="created" value="ZHVuZzI7REFJRFVOR0c7MjAyNS0xMi0wMjsxMDo0NTo1NCBQTTsyMzM2"/>
+        <attribute name="edited" value="ZHVuZzI7REFJRFVOR0c7MjAyNS0xMi0wMjsxMDo0ODoyNyBQTTsxOzI0NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="canhDay" type="Real" array="False" size=""/>
+            <declare name="chieuCao" type="Real" array="False" size=""/>
+            <declare name="dienTich" type="Real" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p &#273;&#7897; d&#224;i c&#7841;nh &#273;&#225;y tam gi&#225;c (4):&quot;" newline="True"/>
+            <input variable="canhDay"/>
+            <output expression="&quot;Nh&#7853;p chi&#7873;u cao t&#432;&#417;ng &#7913;ng (5):&quot;" newline="True"/>
+            <input variable="chieuCao"/>
+            <assign variable="dienTich" expression="0.5 * canhDay * chieuCao"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c l&#224;: &quot; &amp; dienTich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

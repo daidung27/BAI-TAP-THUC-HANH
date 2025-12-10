@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau1_3"/>
+        <attribute name="authors" value="dung2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-02 10:28:40 PM"/>
+        <attribute name="created" value="ZHVuZzI7REFJRFVOR0c7MjAyNS0xMi0wMjsxMDoyMjozMSBQTTsyMzI2"/>
+        <attribute name="edited" value="ZHVuZzI7REFJRFVOR0c7MjAyNS0xMi0wMjsxMDoyODo0MCBQTTsxOzI0NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;one bottle of beer on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
